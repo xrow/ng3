@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html><head>
+        <title>WebPagetest Optimization Check Results - Frankfurt : www.wuv.de - 09/15/16 14:26:00</title>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Optimization,Webpagetest,Website Speed Test,Page Speed">
+<meta name="description" content="Website performance optimization recommendations - Frankfurt : www.wuv.de - 09/15/16 14:26:00.">
+<meta name="author" content="Patrick Meenan">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+
+<link rel="shortcut icon" href="https://www.webpagetest.org/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="https://www.webpagetest.org/images/favicon.png" type="image/png">
+
+<iframe style="width: 0px; height: 0px; border: 0px none;" src="javascript:false"></iframe><script src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/5b0327a758" type="text/javascript"></script><script src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/nr-974.js"></script><script src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/ca-pub-0388499782819905.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UA4FV1BACgMDUVBQAg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(s){try{i("ierr",[s,(new Date).getTime(),!0])}catch(c){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,e,n){u&&(d+=1)}),s.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState";t("loader").features.stn=!0,t(6);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(w,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),this.bstType])}),s.on(m,function(){this.bstStart=Date.now()}),s.on(w,function(t,e){i(v,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,!1),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t(17)(a),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=c(n,"nr@wrapped",function(){return s(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&s.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],6:[function(t,e,n){var r=t("ee").get("history"),o=t(17)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,e,n){var r=t("ee").get("raf"),o=t(17)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(17)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",s)}function i(t){v.push(t),h&&(g=-g,b.data=g)}function a(){for(var t=0;t<v.length;t++)r([],v[t]);v.length&&(v=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t(17)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],v=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(p,y),y.prototype=p.prototype,d.inPlace(y.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var g=1,b=document.createTextNode(g);new h(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],10:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],11:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],12:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],13:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],14:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],15:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],16:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],17:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],s])}f(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],s),l}finally{f(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!c){c=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}c=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),s=a.length,c=0;c<s;c++)a[c].apply(i,r);var u=f[w[n]];return u&&u.push([v,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){c(t,function(t,n){e=e||"feature",w[n]=e,e in f||(f[e]=[])})}var m={},w={},v={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return v}function i(){return new r}var a="nr@context",s=t("gos"),c=t(15),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!g++){var t=y.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(w,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",s("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){s("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var s=t("handle"),c=t(15),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(12);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},v=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:m,features:{},xhrWrappable:v};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),s("mark",["firstbyte",a()],null,"api");var g=0},{}]},{},["loader",2,10,4,3]);</script>
+<script type="text/javascript">
+var wptTemplate = 'Optimization Check';
+rumMapping = {'aft': 'custom0'};
+(function(){
+  var dom,doc,where,iframe = document.createElement('iframe');
+  iframe.src = "javascript:false";
+  (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0";
+  where = document.getElementsByTagName('script')[0];
+  where.parentNode.insertBefore(iframe, where);
+
+  try {
+    doc = iframe.contentWindow.document;
+  } catch(e) {
+    dom = document.domain;
+    iframe.src="javascript:var d=document.open();d.domain='"+dom+"';void(0);";
+    doc = iframe.contentWindow.document;
+  }
+  doc.open()._l = function() {
+    var js = this.createElement("script");
+    if(dom) this.domain = dom;
+    js.id = "boomr-if-as";
+    js.src = '//c.go-mpulse.net/boomerang/' +
+    'KLHEA-LW4C7-LHTMB-YZBLM-2BJ54';
+    BOOMR_lstart=new Date().getTime();
+    this.body.appendChild(js);
+  };
+  doc.write('<body onload="document._l();">');
+  doc.close();
+  })();
+        
+</script>
+<script type="text/javascript">
+;(function(){var e=typeof window!="undefined"?window:exports,t=[];e.performance||(e.performance={});e.performance.now||(e.performance.now=performance.now||performance.webkitNow||performance.msNow||performance.mozNow);if(!e.performance.now){var n=Date.now?Date.now():+(new Date);if(performance.timing&&performance.timing)n=performance.timing.navigationStart;e.performance.now=function(){var e=Date.now?Date.now():+(new Date);return e-n}}e.performance.mark||(e.performance.mark=e.performance.webkitMark?e.performance.webkitMark:function(n){t.push({name:n,entryType:"mark",startTime:e.performance.now(),duration:0})});e.performance.getEntriesByType||(e.performance.getEntriesByType=e.performance.webkitGetEntriesByType?e.performance.webkitGetEntriesByType:function(e){return e=="mark"?t:undefined})})();window.markUserTime=function(e){var t=window["requestAnimationFrame"]||function(e){setTimeout(e,0)};t(function(){window.performance.mark(e);if(window["console"]&&console["timeStamp"])console.timeStamp(e)})};(function(){var e=function(e,t,n){t=Math.round(t);if(t>=0&&t<36e5){if(!n&&window["_gaq"])_gaq.push(["_trackTiming","UserTimings",e,t]);if(n&&window["rumMapping"]&&window.rumMapping[e])BOOMR.plugins.RT.setTimer(window.rumMapping[e],t)}};utReportRUM=function(t){var n=window.performance.getEntriesByType("mark");var r={};for(i=0;i<n.length;i++){g="usertiming";if(r[g]==undefined||n[i].startTime>r[g])r[g]=n[i].startTime;p=n[i].name.match(/([^\.]+)\.([^\.]*)/);if(p&&p.length>2&&(r[p[1]]==undefined||n[i].startTime>r[p[1]]))r[p[1]]=n[i].startTime}for(g in r)e(g,r[g],t)};utOnLoad=function(){utReportRUM(false)};if(window["addEventListener"])window.addEventListener("load",utOnLoad,false);else if(window["attachEvent"])window.attachEvent("onload",utOnLoad);utSent=false;BOOMR=window.BOOMR||{};BOOMR.plugins=BOOMR.plugins||{};BOOMR.plugins.UserTiming={init:function(e){BOOMR.subscribe("page_ready",function(){if(!utSent){utReportRUM(true);utSent=true;BOOMR.sendBeacon()}})},is_complete:function(){return utSent}}})();
+</script>
+<link rel="stylesheet" href="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/pagestyle.css" type="text/css">
+<style type="text/css">
+
+</style>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3755571-1']);
+_gaq.push(['_setCustomVar', 1, 'Template', 'Optimization Check', 3]);
+    _gaq.push(['_setSiteSpeedSampleRate', 100]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ?
+        'https://ssl' : 'http://www') +
+        '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+    })();
+    </script><script async="true" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/ga.js"></script>
+        <style type="text/css">
+            td.nowrap {white-space:nowrap;}
+            th.nowrap {white-space:nowrap;}
+            tr.blank {height:2ex;}
+			.indented1 {padding-left: 40pt;}
+			.indented2 {padding-left: 80pt;}
+            h1
+            {
+                font-size: larger;
+            }
+            
+            #opt
+            {
+                margin-bottom: 2em;
+            }
+            #opt_table
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            #opt_table th
+            {
+                padding: 5px;
+                border: 1px solid black;
+                font-weight: normal;
+            }
+            #opt_table td
+            {
+                padding: 5px;
+                border: 1px solid black;
+                font-weight: bold;
+            }
+
+            #optimization_summary {
+                float: none;
+                display: inline-table;
+            }
+
+            #optimization_summary td {
+                min-height: 30px;
+                font-weight: bold;
+                font-size: 2.5em;
+                max-width: 100px;
+                border: 5px white solid;
+            }
+
+            #optimization_summary td a {
+                text-align: center;
+                display: block;
+                height: 100%;
+                padding: 0.5em;
+            }
+
+            #optimization_summary td.checklist {
+                font-size: 1em;
+                font-weight: normal;
+                text-decoration: underline;
+            }
+
+            #optimization_summary .step {
+                font-size: 1.5em;
+                max-width: none;
+            }
+
+            #optimization_summary th {
+                padding: 0.5em;
+                font-weight: bold;
+                font-size: 1.2em;
+                max-width: 100px;
+            }
+
+            .snippet_container .details {
+                padding: 1em;
+                overflow-x: auto;
+            }
+
+            .snippet_container .details h2 {
+                text-align: center;
+            }
+
+                    </style>
+    </head>
+    <body>
+        <div class="page">
+            <div id="wptAuthBar"><a href="https://www.webpagetest.org/forums/member.php?action=login">Login</a> &nbsp;|&nbsp; <a href="https://www.webpagetest.org/forums/member.php?action=register">Register</a> &nbsp;|&nbsp; <a href="https://www.webpagetest.org/oauth/login.php">Login with Google</a> </div>
+<div id="header">
+    <h1 class="logo"><a href="https://www.webpagetest.org/">WebPageTest</a></h1>
+    <div class="headerAd">
+    <a href="http://www.dynatrace.com/en/ruxit/capabilities/web-monitoring/?utm_source=webpagetest&amp;utm_medium=cpm&amp;utm_campaign=webmonitoring&amp;utm_term=728x90&amp;utm_content=ww" target="_blank" onclick="wptBannerTrack();" title="All-in-one Application Performance Management | Dynatrace Ruxit">
+<img alt="All-in-one Application Performance Management | Dynatrace Ruxit" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/banner2.png">
+</a>
+<script type="text/javascript">
+try{
+if( _gaq != undefined )
+    _gaq.push(['_trackEvent', 'Banner', 'Impression', 'Frankfurt']);
+}catch(err){}
+
+function wptBannerTrack()
+{
+    try{
+    if( _gaq != undefined )
+        _gaq.push(['_trackEvent', 'Banner', 'Click', 'Frankfurt']);
+    }catch(err){}
+    return true;
+}
+</script>
+    </div>
+</div>
+
+<div id="nav_bkg"><ul id="nav" class="cufon-dincond_black"><li><a title="Home" href="https://www.webpagetest.org/">Home</a></li><li class="current"><a title="Test Result" href="https://www.webpagetest.org/result/160915_T8_158F/">Test Result</a></li><li><a title="Test History" href="https://www.webpagetest.org/testlog/1/">Test History</a></li><li><a title="Forums" href="https://www.webpagetest.org/forums/">Forums</a></li><li><a title="Documentation (opens in a new tab)" href="http://sites.google.com/a/webpagetest.org/docs/" target="_blank">Documentation</a></li><li><a title="About" href="https://www.webpagetest.org/about">About</a></li></ul>
+
+</div>
+
+<div class="alert bold">Help with research into the perception of page loading speed by taking the <a href="http://speedperception.meteorapp.com/" title="SpeedPerception challenge">SpeedPerception challenge</a></div>    
+<div id="main">
+    <div class="level_2">
+        <div class="content-wrap">
+            <div class="content">
+
+            
+<div id="header_container"><div id="optimization"><div id="optimization_header"><div id="opthelp"><a href="https://sites.google.com/a/webpagetest.org/docs/other-resources/optimization-resources" title="Optimization Resources" target="_blank">Need help improving?</a></div>
+</div><div id="grades"><ul class="grades"><li class="first_byte_time"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#first_byte_time"><h2 class="A">A</h2></a>First Byte Time</li><li class="keep_alive_enabled"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#keep_alive_enabled"><h2 class="A">A</h2></a>Keep-alive Enabled</li><li class="compress_text"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#compress_text"><h2 class="B">B</h2></a>Compress Transfer</li><li class="compress_images"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#compress_images"><h2 class="B">B</h2></a>Compress Images</li><li class="cache_static_content"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#cache_static_content"><h2 class="A">A</h2></a>Cache static content</li><li class="use_of_cdn"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/#use_of_cdn"><h2 class="NA">X</h2></a>Effective use of CDN</li></ul></div></div><div id="header_data"><h2 class="alternate cufon-dincond_regular">Web Page Performance Test for<br><span class="medium colored">www.wuv.de</span></h2><p class="heading_details"><strong>From:</strong> Frankfurt, Germany - Dynatrace Ruxit - <b>Chrome</b> - <b>Cable</b><br>
+<span class="jsdate" date="1473942360">15.9.2016, 14:26:00</span><br>
+</p></div></div><div id="test_results-container"><div id="test-1" class="test_results"><ul class="test_menu"><li><a href="https://www.webpagetest.org/result/160915_T8_158F/">Summary</a></li><li><a href="https://www.webpagetest.org/result/160915_T8_158F/1/details/">Details</a></li><li class="current"><a href="https://www.webpagetest.org/result/160915_T8_158F/1/performance_optimization/">Performance Review</a></li><li><a href="https://www.webpagetest.org/result/160915_T8_158F/1/breakdown/">Content Breakdown</a></li><li><a href="https://www.webpagetest.org/result/160915_T8_158F/1/domains/">Domains</a></li><li><a href="https://www.webpagetest.org/result/160915_T8_158F/1/screen_shot/">Screen Shot</a></li></ul><div class="test_results-content"><script type="text/javascript">
+  markUserTime('aft.Site Header');
+</script>
+<div style="text-align:center;">
+<h1>Full Optimization Checklist</h1>
+<img alt="Optimization Checklist" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/1_optimization.png" id="checklist_step1">
+<br></div><br><div style="width:100%; height:90; text-align:center; clear:both; padding: 1em 0px; background-color: #AAA;">
+  <script async="" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/adsbygoogle.js"></script>
+  <ins data-adsbygoogle-status="done" class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="pub-0388499782819905" data-ad-slot="0090008850"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;" width="728" frameborder="0" height="90"></iframe></ins></ins></ins>
+  <script>
+    (adsbygoogle=window.adsbygoogle || []).push({});
+  </script>
+</div>
+<br><div class="details">
+<h2>Details</h2><a name="first_byte_time"><h3 id="ttfb_step1">First Byte Time (back-end processing): 100/100</h3></a><p class="indented1">
+<b>280 ms</b> First Byte Time<br>
+<b>400 ms</b> Target First Byte Time<br>
+</p><br>
+<a name="keep_alive_enabled"><h3 id="keep-alive_step1">Use persistent connections (keep alive): 92/100</h3></a><p class="indented1">
+FAILED - http://static.plista.com/async/module/getwindow,classname,tween,slide/PLISTA.js<br>
+FAILED - http://static.plista.com/image/adchoices/de/13/119,119,119/0/1.png<br>
+FAILED - http://static.plista.com/images/arrow_openclose.png<br>
+FAILED - http://static.plista.com/image/adchoices/de/13/170,170,170/0/1.png<br>
+FAILED - http://static.plista.com/image/adhints/666666_de.png<br>
+FAILED - http://static.plista.com/image/resized/29678/DCDCDC/p22U66YIyyjMd82_220x165_8299.png<br>
+FAILED - http://static.plista.com/image/resized/239472/DCDCDC/MpKXVvs4OwX1Xy2_220x165_7767.jpg<br>
+FAILED - http://static.plista.com/image/logo_plista_lightgray_efefef_alpha.gif<br>
+FAILED - http://static.plista.com/image/resized/29678/FFFFFF/p22U66YIyyjMd82_200x150_8299.png<br>
+FAILED - http://static.plista.com/async/ddd51a68b8db1b66f11e9e6b/PLISTA.js<br>
+FAILED - http://static.plista.com/wuv.de_v1.js<br>
+</p><br>
+<a name="compress_text"><h3 id="gzip_step1">Use gzip compression for transferring compressable responses: 81/100</h3></a>
+<p>445.5 KB total in compressible text, target size = 363.3 KB - potential savings = <b>82.2 KB</b></p>
+<p class="indented1">FAILED - (49.8 KB, compressed = 25.9 KB - savings of <b>23.9 KB</b>) - http://www.wuv.de/extension/wuv/design/evo/stylesheets/fonts/f4c22278-7598-4153-b5f2-9c7bfcfd1f6c.ttf<br>
+FAILED - (37.6 KB, compressed = 20.7 KB - savings of <b>16.9 KB</b>) - http://www.wuv.de/extension/wuv/design/evo/stylesheets/fonts/de22c287-e0dc-4287-8a0e-3f68a8788330.ttf<br>
+FAILED - (33.4 KB, compressed = 19.3 KB - savings of <b>14.1 KB</b>) - http://www.wuv.de/extension/wuv/design/evo/stylesheets/fonts/3bc63e58-83ed-4157-8c09-1e1d7556150e.ttf<br>
+FAILED - (14.7 KB, compressed = 1.5 KB - savings of <b>13.3 KB</b>) - http://www.wuv.de/extension/wuv/design/evo/images/favicons/favicon.ico<br>
+FAILED - (10.7 KB, compressed = 2.4 KB - savings of <b>8.3 KB</b>) - https://videomanager.movingimage24.com/javascript/mi24player.js<br>
+FAILED - (7.4 KB, compressed = 1.7 KB - savings of <b>5.7 KB</b>) - 
+http://oas.wuv.de/RealMedia/ads/adstream_mjx.ads/www.wuv51.de/homepage/1024868831@x81,x80,x89,x82,x86,x83,x84,x87,x85?page=Werben_+_Verkaufen&amp;page-id=10406<br>
+</p><br>
+<a name="compress_images"><h3 id="image_compression_step1">Compress Images: 84/100</h3></a>
+<p>497.5 KB total in images, target size = 419.9 KB - potential savings = <b>77.6 KB</b></p>
+<p class="indented1">FAILED - (51.8 KB, compressed = 19.3 KB - savings of <b>32.5 KB</b>) - http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1792_W_ROS_CurvySuperModel_RTL2/TAP_Bild.jpg<br>
+WARNING - (60.9 KB, compressed = 45.1 KB - savings of <b>15.8 KB</b>) - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/kontakter_18_16/7484237-53-ger-DE/kontakter_18_162_legacy_cover_300.jpg<br>
+FAILED - (23.3 KB, compressed = 9.2 KB - savings of <b>14.1 KB</b>) - 
+http://www.wuv.de/var/wuv/storage/images/media/bilder/wuv_37_16_titel_hirn_165x215/7488008-1-ger-DE/wuv_37_16_titel_hirn_165x215.jpg<br>
+WARNING - (30.6 KB, compressed = 25.4 KB - savings of <b>5.2 KB</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1723_W_ROS_Crosschannelmarketingspecial_Adobe/special-wuv-adobe-dmexco-300x250px.jpg/1472472460<br>
+WARNING - (20.5 KB, compressed = 16.4 KB - savings of <b>4.1 KB</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1787_W_ROS_DmexcoPreview_MobileInternational/special-wuv-mobile-940x90px.jpg/1472718637<br>
+WARNING - (23.2 KB, compressed = 19.4 KB - savings of <b>3.8 KB</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1848_W_ROS_Whitepaper_Discovery/WuV_Whitepaper_330x250-disc-nets.jpg<br>
+WARNING - (28.4 KB, compressed = 26.4 KB - savings of <b>2.0 KB</b>) - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/lead_digital_09_16/7488747-22-ger-DE/lead_digital_09_163_legacy_cover_300.jpg<br>
+</p><br>
+<a name="progressive_jpeg"><h3 id="progressive_jpeg_step1">Use Progressive JPEGs: 24/100</h3></a>
+<p>83.1 KB of a possible 312.9 KB (27%) were from progressive JPEG images</p>
+<p class="indented1">FAILED (60.9 KB) - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/kontakter_18_16/7484237-53-ger-DE/kontakter_18_162_legacy_cover_300.jpg<br>
+FAILED (51.8 KB) - http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1792_W_ROS_CurvySuperModel_RTL2/TAP_Bild.jpg<br>
+FAILED (28.4 KB) - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/lead_digital_09_16/7488747-22-ger-DE/lead_digital_09_163_legacy_cover_300.jpg<br>
+FAILED (23.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/media/bilder/wuv_37_16_titel_hirn_165x215/7488008-1-ger-DE/wuv_37_16_titel_hirn_165x215.jpg<br>
+FAILED (15.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/kolle_rebbe_holt_hochkaraetiges_digital_trio/7490298-1-ger-DE/kolle_rebbe_holt_hochkaraetiges_digital_trio2_evo_280x180.jpg<br>
+FAILED (14.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/w_v_37_2016/7486412-30-ger-DE/w_v_37_20162_legacy_cover_300.jpg<br>
+FAILED (13.4 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/was_christian_muche_bei_der_dmexco_besser_machen_moechte/7490408-9-ger-DE/was_christian_muche_bei_der_dmexco_besser_machen_moechte8_evo_280x180.jpg<br>
+FAILED (11.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu/7486818-15-ger-DE/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu10_evo_list_itmes_comp.jpg<br>
+FAILED (11.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/so_sind_deutschlands_kreativste_agenturen_als_arbeitgeber/7457500-5-ger-DE/so_sind_deutschlands_kreativste_agenturen_als_arbeitgeber6_evo_220x165.jpg<br>
+Info (9.4 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/fetisch_rentner_moebel_startup_wagt_den_blick_in_den_schrank/7490118-3-ger-DE/fetisch_rentner_moebel_startup_wagt_den_blick_in_den_schrank4_evo_list_itmes_comp.jpg<br>
+Info (9.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen/7490954-1-ger-DE/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen2_evo_list_itmes_comp.jpg<br>
+Info (8.7 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/google_jetzt_mit_youtube_player_fuer_publisher/7490579-1-ger-DE/google_jetzt_mit_youtube_player_fuer_publisher3_evo_list_itmes_comp.jpg<br>
+Info (8.2 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/achselhaare_h_m_wirbt_feministisch/7490652-1-ger-DE/achselhaare_h_m_wirbt_feministisch2_evo_list_itmes_comp.jpg<br>
+Info (7.9 KB) - 
+http://www.lead-digital.de/var/wuv/storage/images/lead_digital/aktuell/mobile/anleitung_zum_zaehneputzen_digitale_transformation_auf_der_dmexco/7490269-8-ger-DE/anleitung_zum_zaehneputzen_digitale_transformation_auf_der_dmexco9_halfpanorama.jpg<br>
+Info (7.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/amazon_fashion_greift_mit_sarah_jessica_parker_an/7490460-4-ger-DE/amazon_fashion_greift_mit_sarah_jessica_parker_an5_evo_list_itmes_comp.jpg<br>
+Info (7.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/noch_ein_geisterblatt_donna_lagert_redaktion_aus/7490815-7-ger-DE/noch_ein_geisterblatt_donna_lagert_redaktion_aus8_evo_list_itmes_comp.jpg<br>
+Info (7.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/jung_von_matt_scholz_friends_agentur_duo_fuer_opel/7487115-9-ger-DE/jung_von_matt_scholz_friends_agentur_duo_fuer_opel10_evo_220x165.jpg<br>
+Info (7.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488827-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_220x165.jpg<br>
+Info (7.7 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/der_koeder_muss_dem_fisch_schmecken_nicht_dem_angler/7490434-8-ger-DE/der_koeder_muss_dem_fisch_schmecken_nicht_dem_angler9_evo_list_itmes_comp.jpg<br>
+Info (6.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/diese_frau_lenkt_kuenftig_sixx/7488320-1-ger-DE/diese_frau_lenkt_kuenftig_sixx2_evo_list_itmes_comp.jpg<br>
+Info (6.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen/7490238-9-ger-DE/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen8_evo_220x165.jpg<br>
+Info (6.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_1/7489506-1-ger-DE/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_13_evo_list_itmes_comp.jpg<br>
+Info (5.6 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/nett_hier_auf_der_dmexco_aber_waren_sie_schon_mal_bei_burning_man/7490356-2-ger-DE/nett_hier_auf_der_dmexco_aber_waren_sie_schon_mal_bei_burning_man4_evo_list_itmes_comp.jpg<br>
+Info (5.4 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488829-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_list_itmes_comp.jpg<br>
+Info (5.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490142-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart6_evo_220x165.jpg<br>
+Info (5.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin/7490876-1-ger-DE/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin2_evo_list_itmes_comp.jpg<br>
+Info (5.3 KB) - 
+http://www.lead-digital.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490199-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_halfpanorama.jpg<br>
+Info (5.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen/7490240-9-ger-DE/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen8_evo_list_itmes_comp.jpg<br>
+Info (4.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/ipg_mediabrands_launcht_mobile_agentur_ansible/7489584-4-ger-DE/ipg_mediabrands_launcht_mobile_agentur_ansible3_evo_list_itmes_comp.jpg<br>
+Info (4.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/die_kreativsten_reaktionen_zum_iphone_7/7488365-7-ger-DE/die_kreativsten_reaktionen_zum_iphone_78_evo_220x165.jpg<br>
+Info (4.1 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490144-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart5_evo_list_itmes_comp.jpg<br>
+Info (3.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490199-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_evo_list_itmes_comp.jpg<br>
+Info (2.6 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen/7490952-1-ger-DE/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen2_evo_80x60.jpg<br>
+Info (2.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/noch_ein_geisterblatt_donna_lagert_redaktion_aus/7490813-7-ger-DE/noch_ein_geisterblatt_donna_lagert_redaktion_aus8_evo_80x60.jpg<br>
+Info (2.5 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu/7486816-15-ger-DE/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu11_evo_80x60.jpg<br>
+Info (2.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/kolle_rebbe_holt_hochkaraetiges_digital_trio/7490296-1-ger-DE/kolle_rebbe_holt_hochkaraetiges_digital_trio3_evo_80x60.jpg<br>
+Info (2.2 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/google_jetzt_mit_youtube_player_fuer_publisher/7490577-1-ger-DE/google_jetzt_mit_youtube_player_fuer_publisher3_evo_80x60.jpg<br>
+Info (2.2 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/was_christian_muche_bei_der_dmexco_besser_machen_moechte/7490406-9-ger-DE/was_christian_muche_bei_der_dmexco_besser_machen_moechte8_evo_80x60.jpg<br>
+Info (2.1 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/amazon_fashion_greift_mit_sarah_jessica_parker_an/7490458-4-ger-DE/amazon_fashion_greift_mit_sarah_jessica_parker_an7_evo_80x60.jpg<br>
+Info (2.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_1/7489504-1-ger-DE/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_13_evo_80x60.jpg<br>
+Info (2.0 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/magdalena_neuner_wird_markenbotschafterin_von_bmw/7489768-3-ger-DE/magdalena_neuner_wird_markenbotschafterin_von_bmw4_evo_80x60.jpg<br>
+Info (1.9 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/karriere_job/warum_bertelsmann_geisteswissenschaftler_sucht/7488587-12-ger-DE/warum_bertelsmann_geisteswissenschaftler_sucht13_evo_80x60.jpg<br>
+Info (1.9 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/ex_manager_packt_ueber_arbeitgeber_facebook_aus/7488394-5-ger-DE/ex_manager_packt_ueber_arbeitgeber_facebook_aus6_evo_80x60.jpg<br>
+Info (1.9 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/apple_kommunikation_mit_vollem_mund_spricht_man_nicht/7478240-3-ger-DE/apple_kommunikation_mit_vollem_mund_spricht_man_nicht5_evo_80x60.jpg<br>
+Info (1.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/achselhaare_h_m_wirbt_feministisch/7490650-1-ger-DE/achselhaare_h_m_wirbt_feministisch3_evo_80x60.jpg<br>
+Info (1.8 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin/7490874-1-ger-DE/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin3_evo_80x60.jpg<br>
+Info (1.7 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488827-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_80x60.jpg<br>
+Info (1.6 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/kampagnen/kreation_des_tages/langweilige_stock_fotos_als_mode_statement/7489958-1-ger-DE/langweilige_stock_fotos_als_mode_statement3_evo_80x60.jpg<br>
+Info (1.3 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490142-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart6_evo_80x60.jpg<br>
+Info (1.1 KB) - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490197-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_evo_80x60.jpg<br>
+</p><br>
+<a name="cache_static_content"><h3 id="caching_step1">Leverage browser caching of static assets: 90/100</h3></a>
+<p class="indented1">FAILED - (<b>No max-age or expires</b>) - http://cdn.oas-eu1.adnxs.com/0/default/empty.gif<br>
+FAILED - (<b>No max-age or expires</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1848_W_ROS_Whitepaper_Discovery/WuV_Whitepaper_330x250-disc-nets.jpg<br>
+FAILED - (<b>No max-age or expires</b>) - 
+http://de.ioam.de/tx.io?st=wuv&amp;cp=wuv_allg_rc_hp_hp_hp&amp;sv=ke&amp;co=&amp;pt=CP&amp;rf=&amp;r2=&amp;ur=www.wuv.de&amp;xy=1280x1024x24&amp;lo=DE%2FHessen&amp;cb=000f&amp;vr=309&amp;id=62794p&lt;=1473942318294&amp;ev=&amp;cs=6v0w56&amp;mo=1&amp;sr=71<br>
+FAILED - (<b>No max-age or expires</b>) - 
+https://4683451.fls.doubleclick.net/activityi;dc_pre=CIuyx4Kvkc8CFYaJ7Qod6fIK7w;src=4683451;type=count0;cat=wvweb0;ord=4092185404493.4067<br>
+FAILED - (<b>No max-age or expires</b>) - http://static.plista.com/images/arrow_openclose.png<br>
+FAILED - (<b>No max-age or expires</b>) - https://videomanager.movingimage24.com/javascript/mi24player.js<br>
+FAILED - (<b>15.4 minutes</b>) - http://connect.facebook.net/en_US/fbevents.js<br>
+WARNING - (<b>60.0 minutes</b>) - https://www.google-analytics.com/plugins/ua/linkid.js<br>
+WARNING - (<b>2.0 hours</b>) - http://static.chartbeat.com/js/chartbeat.js<br>
+WARNING - (<b>2.0 hours</b>) - https://script.ioam.de/iam.js<br>
+WARNING - (<b>2.0 hours</b>) - https://www.google-analytics.com/analytics.js<br>
+WARNING - (<b>2.8 hours</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1857_W_ROS_Dmexcotv_Telefonica/dmexco-tv-banner-300x250px.gif/1473692523<br>
+WARNING - (<b>12.3 hours</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1637_W_HP_NCon1_Ex_Right1/300x250-JVB-Banner-WuV-KW37.gif/1473250382<br>
+WARNING - (<b>16.5 hours</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1787_W_ROS_DmexcoPreview_MobileInternational/special-wuv-mobile-940x90px.jpg/1472718637<br>
+WARNING - (<b>17.9 hours</b>) - 
+http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1723_W_ROS_Crosschannelmarketingspecial_Adobe/special-wuv-adobe-dmexco-300x250px.jpg/1472472460<br>
+WARNING - (<b>20.6 hours</b>) - http://cdn.oas-eu1.adnxs.com/RealMedia/ads/Creatives/WUV/1792_W_ROS_CurvySuperModel_RTL2/TAP_Bild.jpg<br>
+WARNING - (<b>24.0 hours</b>) - http://static.plista.com/wuv.de_v1.js<br>
+WARNING - (<b>24.0 hours</b>) - http://static.plista.com/async/ddd51a68b8db1b66f11e9e6b/PLISTA.js<br>
+WARNING - (<b>24.0 hours</b>) - http://static.plista.com/async/module/getwindow,classname,tween,slide/PLISTA.js<br>
+</p><br>
+<a name="use_of_cdn"><h3 id="cdn_step1">Use a CDN for all static assets: 8/100</h3></a><p class="indented1">
+FAILED - 
+http://de.ioam.de/tx.io?st=wuv&amp;cp=wuv_allg_rc_hp_hp_hp&amp;sv=ke&amp;co=&amp;pt=CP&amp;rf=&amp;r2=&amp;ur=www.wuv.de&amp;xy=1280x1024x24&amp;lo=DE%2FHessen&amp;cb=000f&amp;vr=309&amp;id=62794p&lt;=1473942318294&amp;ev=&amp;cs=6v0w56&amp;mo=1&amp;sr=71<br>
+FAILED - https://script.ioam.de/iam.js<br>
+FAILED - http://static.plista.com/async/module/getwindow,classname,tween,slide/PLISTA.js<br>
+FAILED - http://static.plista.com/image/adchoices/de/13/119,119,119/0/1.png<br>
+FAILED - http://static.plista.com/images/arrow_openclose.png<br>
+FAILED - http://static.plista.com/image/adchoices/de/13/170,170,170/0/1.png<br>
+FAILED - http://static.plista.com/image/adhints/666666_de.png<br>
+FAILED - http://static.plista.com/image/resized/29678/DCDCDC/p22U66YIyyjMd82_220x165_8299.png<br>
+FAILED - http://static.plista.com/image/resized/239472/DCDCDC/MpKXVvs4OwX1Xy2_220x165_7767.jpg<br>
+FAILED - http://static.plista.com/image/logo_plista_lightgray_efefef_alpha.gif<br>
+FAILED - http://static.plista.com/image/resized/29678/FFFFFF/p22U66YIyyjMd82_200x150_8299.png<br>
+FAILED - http://static.plista.com/async/ddd51a68b8db1b66f11e9e6b/PLISTA.js<br>
+FAILED - http://static.plista.com/wuv.de_v1.js<br>
+FAILED - https://videomanager.movingimage24.com/javascript/mi24player.js<br>
+FAILED - 
+http://www.lead-digital.de/var/wuv/storage/images/lead_digital/aktuell/work/57_freie_stellen_fuer_digital_experten/7489931-30-ger-DE/57_freie_stellen_fuer_digital_experten3_halfpanorama.png<br>
+FAILED - 
+http://www.lead-digital.de/var/wuv/storage/images/lead_digital/aktuell/mobile/anleitung_zum_zaehneputzen_digitale_transformation_auf_der_dmexco/7490269-8-ger-DE/anleitung_zum_zaehneputzen_digitale_transformation_auf_der_dmexco9_halfpanorama.jpg<br>
+FAILED - 
+http://www.lead-digital.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490199-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_halfpanorama.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/stylesheets/evo-fonts.css<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/wuv_Logo_RGB_black.png<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-base/event-base-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/dom-core/dom-core-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/dom-base/dom-base-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/selector-native/selector-native-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/selector/selector-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/node-core/node-core-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/dom-style/dom-style-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/node-base/node-base-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-delegate/event-delegate-min.js<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/site_settings/page_head_logo_specials/special_vib/7475408-1-ger-DE/special_vib.png<br>
+FAILED - 
+http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-custom-complex/event-custom-complex-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-synthetic/event-synthetic-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-mousewheel/event-mousewheel-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-mouseenter/event-mouseenter-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-key/event-key-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-focus/event-focus-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-resize/event-resize-min.js<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/site_settings/page_head_logo_specials/special_dmexco_preview/7481688-1-ger-DE/special_dmexco_preview.png<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-hover/event-hover-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-outside/event-outside-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-touch/event-touch-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-move/event-move-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-flick/event-flick-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-valuechange/event-valuechange-min.js<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/site_settings/page_head_logo_specials/dmexco_tv/7488984-1-ger-DE/dmexco_tv.png<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-tap/event-tap-min.js<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/right/arrow-g.svg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/die_kreativsten_reaktionen_zum_iphone_7/7488365-7-ger-DE/die_kreativsten_reaktionen_zum_iphone_78_evo_220x165.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/so_sind_deutschlands_kreativste_agenturen_als_arbeitgeber/7457500-5-ger-DE/so_sind_deutschlands_kreativste_agenturen_als_arbeitgeber6_evo_220x165.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488827-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_220x165.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen/7490238-9-ger-DE/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen8_evo_220x165.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/jung_von_matt_scholz_friends_agentur_duo_fuer_opel/7487115-9-ger-DE/jung_von_matt_scholz_friends_agentur_duo_fuer_opel10_evo_220x165.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/site_settings/page_head_logo_specials/wuvspecial_crosschannelmarketing/7475435-1-ger-DE/wuvspecial_crosschannelmarketing.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490142-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart6_evo_220x165.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/favicons/favicon.ico<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/amazon_fashion_greift_mit_sarah_jessica_parker_an/7490458-4-ger-DE/amazon_fashion_greift_mit_sarah_jessica_parker_an7_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/achselhaare_h_m_wirbt_feministisch/7490650-1-ger-DE/achselhaare_h_m_wirbt_feministisch3_evo_80x60.jpg<br>
+FAILED - http://www.wuv.de/var/wuv/cache/public/stylesheets/945520e6514389022c7b35b45731fa41_1473756407_all.css<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490197-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin/7490874-1-ger-DE/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin3_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/kolle_rebbe_holt_hochkaraetiges_digital_trio/7490296-1-ger-DE/kolle_rebbe_holt_hochkaraetiges_digital_trio3_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490142-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart6_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen/7490952-1-ger-DE/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen2_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/lead_digital/aktuell/work/57_freie_stellen_fuer_digital_experten/7489929-30-ger-DE/57_freie_stellen_fuer_digital_experten3_evo_80x60.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/was_christian_muche_bei_der_dmexco_besser_machen_moechte/7490406-9-ger-DE/was_christian_muche_bei_der_dmexco_besser_machen_moechte8_evo_80x60.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/javascript/advertisement.js<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/noch_ein_geisterblatt_donna_lagert_redaktion_aus/7490813-7-ger-DE/noch_ein_geisterblatt_donna_lagert_redaktion_aus8_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu/7486816-15-ger-DE/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu11_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/was_christian_muche_bei_der_dmexco_besser_machen_moechte/7490408-9-ger-DE/was_christian_muche_bei_der_dmexco_besser_machen_moechte8_evo_280x180.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/down/arrow-g.svg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/buttons/portfolio.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/kolle_rebbe_holt_hochkaraetiges_digital_trio/7490298-1-ger-DE/kolle_rebbe_holt_hochkaraetiges_digital_trio2_evo_280x180.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/right/arrow-b.svg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/media/bilder/wuv_37_16_titel_hirn_165x215/7488008-1-ger-DE/wuv_37_16_titel_hirn_165x215.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/wuv_Logo_RGB_black.svg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/magni.png<br>
+FAILED - http://www.wuv.de/var/wuv/cache/public/javascript/e9f722bcc9bcabb4d5015688b4285521_1473756546.js<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/google_jetzt_mit_youtube_player_fuer_publisher/7490577-1-ger-DE/google_jetzt_mit_youtube_player_fuer_publisher3_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/kampagnen/kreation_des_tages/langweilige_stock_fotos_als_mode_statement/7489958-1-ger-DE/langweilige_stock_fotos_als_mode_statement3_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/magdalena_neuner_wird_markenbotschafterin_von_bmw/7489768-3-ger-DE/magdalena_neuner_wird_markenbotschafterin_von_bmw4_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_1/7489504-1-ger-DE/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_13_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488827-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/karriere_job/68_neue_stellen_fuer_pr_und_markenkommunikation/7489742-40-ger-DE/68_neue_stellen_fuer_pr_und_markenkommunikation4_evo_80x60.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/karriere_job/warum_bertelsmann_geisteswissenschaftler_sucht/7488587-12-ger-DE/warum_bertelsmann_geisteswissenschaftler_sucht13_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/ex_manager_packt_ueber_arbeitgeber_facebook_aus/7488394-5-ger-DE/ex_manager_packt_ueber_arbeitgeber_facebook_aus6_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/blogs/digitalglobetrotter/look_on_the_light_side_die_schraege_maltersers_kampagne_von_amv_bbdo/7486680-2-ger-DE/look_on_the_light_side_die_schraege_maltersers_kampagne_von_amv_bbdo4_evo_80x60.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/blogs/digitalglobetrotter/die_lust_am_laufen/7485079-2-ger-DE/die_lust_am_laufen3_evo_80x60.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/apple_kommunikation_mit_vollem_mund_spricht_man_nicht/7478240-3-ger-DE/apple_kommunikation_mit_vollem_mund_spricht_man_nicht5_evo_80x60.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen/7490240-9-ger-DE/snapchat_auf_der_dmexco_wir_sind_kein_social_media_unternehmen8_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/fetisch_rentner_moebel_startup_wagt_den_blick_in_den_schrank/7490118-3-ger-DE/fetisch_rentner_moebel_startup_wagt_den_blick_in_den_schrank4_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/nett_hier_auf_der_dmexco_aber_waren_sie_schon_mal_bei_burning_man/7490356-2-ger-DE/nett_hier_auf_der_dmexco_aber_waren_sie_schon_mal_bei_burning_man4_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/amazon_fashion_greift_mit_sarah_jessica_parker_an/7490460-4-ger-DE/amazon_fashion_greift_mit_sarah_jessica_parker_an5_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/achselhaare_h_m_wirbt_feministisch/7490652-1-ger-DE/achselhaare_h_m_wirbt_feministisch2_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/marketing/wie_ibm_die_digitale_transformation_stemmt/7490199-8-ger-DE/wie_ibm_die_digitale_transformation_stemmt7_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin/7490876-1-ger-DE/multiple_sklerose_der_beruehrende_spot_ueber_eine_ogilvy_mitarbeiterin2_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/mercedes_agentur_antoni_kommt_nach_stuttgart/7490144-4-ger-DE/mercedes_agentur_antoni_kommt_nach_stuttgart5_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/agenturen/ipg_mediabrands_launcht_mobile_agentur_ansible/7489584-4-ger-DE/ipg_mediabrands_launcht_mobile_agentur_ansible3_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/digital/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen/7490954-1-ger-DE/apple_will_keinen_weiteren_musikstreaming_dienst_kaufen2_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/lead_digital/aktuell/work/57_freie_stellen_fuer_digital_experten/7489931-30-ger-DE/57_freie_stellen_fuer_digital_experten3_evo_list_itmes_comp.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/specials/dmexco_preview/der_koeder_muss_dem_fisch_schmecken_nicht_dem_angler/7490434-8-ger-DE/der_koeder_muss_dem_fisch_schmecken_nicht_dem_angler9_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/noch_ein_geisterblatt_donna_lagert_redaktion_aus/7490815-7-ger-DE/noch_ein_geisterblatt_donna_lagert_redaktion_aus8_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu/7486818-15-ger-DE/250_jahre_ohne_relaunch_der_print_dauerbrenner_aus_dem_allgaeu10_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/google_jetzt_mit_youtube_player_fuer_publisher/7490579-1-ger-DE/google_jetzt_mit_youtube_player_fuer_publisher3_evo_list_itmes_comp.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/right/arrow-w.svg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_1/7489506-1-ger-DE/david_loy_leitet_marketing_der_sendergruppe_prosiebensat_13_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/leute/personalien/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck/7488829-3-ger-DE/ex_werber_stefan_holwe_gruendet_startup_fuer_reisegepaeck4_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/werben_verkaufen/medien/diese_frau_lenkt_kuenftig_sixx/7488320-1-ger-DE/diese_frau_lenkt_kuenftig_sixx2_evo_list_itmes_comp.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/media/bilder/teaser/rechte_spalte/newsletter_teaser_orange_transparent/6509930-1-ger-DE/newsletter_teaser_orange_transparent.png<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/w_v_37_2016/7486412-30-ger-DE/w_v_37_20162_legacy_cover_300.jpg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/slider_punkt_aktiv.svg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/slider_pfeil_rechts.svg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/slider_punkt.svg<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/images/svg/arrows/slider_pfeil_links.svg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/lead_digital_09_16/7488747-22-ger-DE/lead_digital_09_163_legacy_cover_300.jpg<br>
+FAILED - 
+http://www.wuv.de/var/wuv/storage/images/media/aboshop/ausgaben/kontakter_18_16/7484237-53-ger-DE/kontakter_18_162_legacy_cover_300.jpg<br>
+FAILED - http://www.wuv.de/extension/xrowsalesforce/design/standard/javascript/ga-campaign-loader.js<br>
+FAILED - http://www.wuv.de/extension/wuv/design/evo/javascript/yaml/core/js/yaml-focusfix.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/oop/oop-min.js<br>
+FAILED - http://www.wuv.de/extension/ezjscore/design/standard/lib/yui/3.17.2/build/event-custom-base/event-custom-base-min.js<br>
+<br>CDN's Used:<br>4683451.fls.doubleclick.net : Google<br>connect.facebook.net : Facebook<br>cdn.oas-eu1.adnxs.com : Fastly<br>www.google-analytics.com : Google<br>www.facebook.com : Facebook<br>static.chartbeat.com : Fastly<br></p><br>
+</div>
+
+            <p></p><br><div style="width:100%; height:90; text-align:center; clear:both; padding: 1em 0px; background-color: #AAA;">
+  <script async="" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/adsbygoogle.js"></script>
+  <ins data-adsbygoogle-status="done" class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="pub-0388499782819905" data-ad-slot="2699452019"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><ins id="aswift_1_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;" width="728" frameborder="0" height="90"></iframe></ins></ins></ins>
+  <script>
+    (adsbygoogle=window.adsbygoogle || []).push({});
+  </script>
+</div>
+<br>    <hr>
+    <h2>Glossary:</h2>
+    <p></p>
+    <table style="width:100%" border="1" cellpadding="5px" cellspacing="0">
+
+        <tbody><tr><th class="nowrap" rowspan="2" colspan="1">First Byte Time</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>Time to First Byte for the page (back-end processing + redirects)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>The target time is the time needed for the DNS, socket 
+and SSL negotiations + 100ms.  A single letter grade will be deducted 
+for every 100ms beyond the target.</td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th class="nowrap" rowspan="2" colspan="1">Keep-Alive</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>All objects that are from a domain that serves more than
+ one object for the page (i.e. if only a single object is served from a 
+given domain it will not be checked)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>The response header contains a "keep-alive" directive or the same socket was used for more than one object from the given host</td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th class="nowrap" rowspan="2" colspan="1">GZIP Text</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>All objects with a mime type of "text/*" or "*javascript*"</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>Transfer-encoding is checked to see if it is gzip.  If it is not then the file is compressed and the percentage of compression 
+            is the result (so a page that can save 30% of the size of it's text by compressing would yield a 70% test result)</td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th rowspan="2" colspan="1">Compress Images</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>JPEG Images</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>Within 10% of a photoshop quality 50 will pass, up to 50% larger will warn and anything larger than that will fail.<br>
+            The overall score is the percentage of image bytes that can 
+be saved by re-compressing the images.                        
+            </td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th rowspan="2" colspan="1">Use Progressive JPEGs</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>All JPEG Images</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>Each JPEG image is checked and the resulting score is 
+the percentage of JPEG bytes that were served as progressive images 
+relative to the total JPEG bytes.</td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th class="nowrap" rowspan="2" colspan="1">Cache Static</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>Any non-html object with a mime type of "text/*", "*javascript*" or "image/*" that does not
+                explicitly have an Expires header of 0 or -1, a cache-control header of "private",
+                "no-store" or "no-cache" or a pragma header of "no-cache"</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>
+                An "Expires" header is present (and is not 0 or -1) or a 
+                "cache-control: max-age" directive is present and set for an 
+                hour or greater.  If the expiration is set for less than 30 
+                days you will get a warning (only applies to max-age currently).
+            </td>
+        </tr>
+
+        <tr class="blank"></tr>
+        <tr><th class="nowrap" rowspan="2" colspan="1">Use A CDN</th>
+            <td class="nowrap">Applicable Objects</td>
+            <td>All static non-html content (css, js and images)</td>
+        </tr>
+        <tr>
+            <td class="nowrap">What is checked</td>
+            <td>Checked to see if it is hosted on a known CDN (CNAME 
+mapped to a known CDN network).  80% of the static resources need to be 
+served from a CDN for the overall page to be considered using a CDN. The
+ current list of known CDN's is <a href="https://github.com/WPO-Foundation/webpagetest/blob/master/agent/wpthook/cdn.h">here</a></td>
+        </tr>
+
+    </tbody></table>
+            
+                        <div style="width:100%;float:none;clear:both;"></div>
+
+            </div></div>            </div>
+        </div>
+    </div>
+</div>
+
+   
+    <table id="feeds"><tbody><tr><th>Recent Industry Blog Posts</th><th>Recent Discussions</th></tr><tr><td><ul><li><a title="Soasta" href="https://www.soasta.com/blog/google-mobile-web-performance-study/">Google: 53% of mobile users abandon sites that take longer than 3 seconds to load</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/test-website-performance-in-your-jenkins-build-with-rigor-optimization">Test Performance in Your Jenkins Build with the New Rigor Optimization Plugin</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/soasta-joins-devops-express/">SOASTA joins DevOps Express industry group to break down walls between development, testing and operations</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/how-to-reduce-server-response-times">How to Reduce Server Response Times</a></li><li><a title="Stoyan Stefanov" href="http://www.phpied.com/react-up-and-running/">React: Up and Running</a></li><li id="show_more_feeds_1"><a href="javascript:void(o)" onclick="showFeeds(1)">more...</a></li><li class="morefeeds"><div id="more_feeds_1" class="hidden"><ul><li><a title="SpeedCurve" href="https://speedcurve.com/blog/pwa-performance">PWA Performance</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/how-to-minify-html">How to Minify HTML</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/success-stories-from-rigor-user-ideas">Success Stories from Incorporating Rigor User Ideas</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/mpulse-script-loader-google-seo-web-performance/">Does the mPulse SCRIPT loader affect SEO?</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/monitoring-api-slas">Monitoring APIs with SLAs</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/web-perfectionist-101-mixed-content-errors">Web Perfectionist 101: Mixed Content Errors</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/09/leverage-caching-for-performance">How to Leverage Caching for Performance</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/rum-based-web-performance-testing/">How to test smarter with RUM-based performance testing</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/08/testing-optimization-scenarios-and-spof-with-dns-overrides">Testing Optimizations with DNS Overrides and SPOFs</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/08/detecting-malware-in-ads-and-third-party-content">Detecting Malware in Ads and 3PC with Rigor Optimization</a></li><li><a title="Ilya Grigorik" href="http://feeds.igvita.com/%7Er/igvita/%7E3/o1YsBba7OBc/">Stop Cross-Site Timing Attacks with SameSite cookies</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/digital-transformation-journey-qa-lab-to-digital-performance-management/">Office Depot’s digital transformation journey: From back-room QA lab to digital performance management</a></li><li><a title="Rigor" href="http://rigor.com/blog/2016/08/how-to-use-request-headers-in-api-checks">How to Use Request Headers in API Checks</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/6-steps-scientific-method-web-performance/">How to apply the six steps of the scientific method to web performance</a></li><li><a title="Soasta" href="https://www.soasta.com/blog/love-load-testing-devops-world/">How to love load testing in a DevOps world</a></li></ul></div></li></ul></td><td><ul><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14511">WPT Login Script for Angular Applications</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14509">Packet loss in VA agent and resulting in slow page load acoss locations</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14505">Manchester agent not working?</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14504">New Instance just hangs</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14503">Newbie trying to connect to AWS instance</a></li><li id="show_more_feeds_2"><a href="javascript:void(o)" onclick="showFeeds(2)">more...</a></li><li class="morefeeds"><div id="more_feeds_2" class="hidden"><ul><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14502">New York Server in Private Instance</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14501">Animation and Skewed Speed Index Results</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14500">Why is Initiator column sometimes blank</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14499">AWS Setting up private instance - Newbie stuck</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14498">Multiple requests for same google font</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14497">what does CSI data on wpt results mean?</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14496">Upgrade to Latest WPT released version</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14495">Complete Guide for WebPageTest</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14493">Global variables using custom scripts</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14492">EC2 via AMI - Can't get more than one EC2 instance to spawn</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14491">Create Video doesnt work</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14490">Google Cloud Compute Images for WPT Agent</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14489">Speed Index and Bandwidth</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14487">setCookie only works on repeat call?</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14486">Unable to View the "NEWYORK" server in Test Location.</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14481">875 ms First Byte Time and different performance in USA and India server</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14480">Sydney, Australia (Servers Australia) - IE 10 - custom</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14479">Unknown connectivity type: custom</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14478">Visually comlete</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14477">How does this work?</a></li><li><a title="WebPagetest Forums" href="https://www.webpagetest.org/forums/showthread.php?tid=14475">Dockerfile for all in one host?</a></li></ul></div></li></ul></td></tr></tbody></table>
+    <div id="sponsor_header">WebPagetest Partners</div><div id="links"><table class="links"><tbody><tr><td><a href="http://www.mauritiustelecom.com/" title="Mauritius Telecom"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -200px;"></div></a></td><td><a href="http://www.jetbrains.com/phpstorm/" title="Developed with JetBrains PhpStorm"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors1.png?v=8); background-position: 0px -400px;"></div></a></td><td><a href="http://www.dynatrace.com/en/ruxit/?utm_source=webpagetest&amp;utm_medium=cpm&amp;utm_campaign=wptlogo&amp;utm_term=180x40&amp;utm_content=ww" title="Web monitoring: Real-user and synthetic monitoring seamlessly integrated | Dynatrace Ruxit"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -240px;"></div></a></td><td><a href="http://www.naver.com/" title="NAVER"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors3.png?v=4); background-position: 0px -400px;"></div></a></td><td><a href="http://newrelic.com/" title="New Relic"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px -160px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="http://www.soasta.com/?utm_source=webpagetest.org&amp;utm_medium=banner&amp;utm_campaign=mPulse-Promo-bottombanner" title="SOASTA = Performance Analytics"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -40px;"></div></a></td><td><a href="http://www.godaddy.com/?isc=wptlogo1&amp;utm_campaign=webpagetest&amp;utm_source=webpagetest&amp;utm_medium=Other%2BOnline&amp;utm_content=wptlogo1" title="World's #1 ICANN-accredited domain registrar | GoDaddy​"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors4.png?v=14); background-position: 0px -80px;"></div></a></td><td><a href="http://www.serversaustralia.com.au/" title="Dedicated Servers, VPS, Web Hosting | Servers Australia"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px -400px;"></div></a></td><td><a href="http://www.kbsd.com/" title="*KBSD Switzerland*"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors1.png?v=8); background-position: 0px -80px;"></div></a></td><td><a href="http://www.globalis-ms.com/" title="GLOBALIS media systems"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -40px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="http://www.fastly.com/" title="Fastly - The Next Gen CDN."><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px 0px;"></div></a></td><td><a href="http://key-performance.eu/" title="Key Performance"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -120px;"></div></a></td><td><a href="https://www.dotcom-tools.com/website-speed-test.aspx?se=574612167f2948219c65b6ca3120f44f" title="Website Performance Testing by Dotcom-Monitor"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors3.png?v=4); background-position: 0px -200px;"></div></a></td><td><a href="http://www.supermonitoring.com/?utm_source=webpagetest&amp;utm_medium=banner&amp;utm_campaign=whosmonitoring" title="Super Monitoring - website monitoring powered by superheroes"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors1.png?v=8); background-position: 0px -240px;"></div></a></td><td><a href="http://www.nyi.net/" title="www.nyi.net"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors5.png?v=14); background-position: 0px 0px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="http://www.maxcdn.com/" title="MaxCDN Content Delivery Network"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors3.png?v=4); background-position: 0px 0px;"></div></a></td><td><a href="http://www.vmhosts.co.uk/" title="VMHosts - Business Cloud Hosting"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors4.png?v=14); background-position: 0px -320px;"></div></a></td><td><a href="http://www.iispeed.com/" title="Google PageSpeed optimization for Microsoft IIS"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors4.png?v=14); background-position: 0px -240px;"></div></a></td><td><a href="http://www.trustiv.co.uk/" title="Trust IV - IT testing and project services"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors4.png?v=14); background-position: 0px -360px;"></div></a></td><td><a href="http://bit.ly/1R3ZYmB" title="Create your stunning website on WordPress.com"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -360px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="http://www.akamai.com/" title="Akamai"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors3.png?v=4); background-position: 0px -80px;"></div></a></td><td><a href="http://www.interhost.co.il/" title="interhost.co.il - Israel Web Hosting Services"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -480px;"></div></a></td><td><a href="http://www.sutunam.com/" title="Sutunam Web Agency - Magento Development Design and Hosting"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors5.png?v=14); background-position: 0px -320px;"></div></a></td><td><a href="http://www.host1plus.com/" title="Web Hosting Services Provided by HOST1PLUS"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px -480px;"></div></a></td><td><a href="https://www.quantil.com/about-us/#about-us-2" title="QUANTIL - Global Content Delivery Network"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -120px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="http://www.cisin.com/" title="CIS :: One-Stop Outsourcing Services, Since 2003! | We do IT better"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -400px;"></div></a></td><td><a href="https://www.iteratec.de/index.php?id=276" title="iteratec and OpenSpeedMonitor: iteratec GmbH"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors4.png?v=14); background-position: 0px -40px;"></div></a></td><td><a href="http://www.catchpoint.com/products/synthetic.html" title="Catchpoint Systems"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px -360px;"></div></a></td><td><a href="http://www.date2020.com/" title="Date2020.com℠ - Date as clearly as you see!℠"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -280px;"></div></a></td><td><a href="http://www.softwarehosting.cz/" title="SoftwareHosting.cz"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors5.png?v=14); background-position: 0px -160px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="https://headspin.io/" title="HeadSpin - No More Buffering"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -320px;"></div></a></td><td><a href="http://www.duplika.com/?utm_source=webpagetest&amp;utm_medium=logo&amp;utm_campaign=speed" title="duplika Internet Solutions"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors2.png?v=11); background-position: 0px -200px;"></div></a></td><td><a href="http://www.neotys.com/" title="Neotys Load &amp; Performance Testing"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -360px;"></div></a></td><td><a href="https://www.appdynamics.com/" title="AppDynamics"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors5.png?v=14); background-position: 0px -400px;"></div></a></td><td><a href="http://www.ecritel.cn/" title="Ecritel China"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors6.png?v=11); background-position: 0px -80px;"></div></a></td></tr></tbody></table><table class="links"><tbody><tr><td><a href="https://www.zenedge.com/" title="ZENEDGE - Making Cybersecurity Smarter"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors1.png?v=8); background-position: 0px -200px;"></div></a></td><td></td><td><a href="http://www.apicasystem.com/" title="Apica Inc"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors24.png?v=7); background-position: 0px -240px;"></div></a></td><td></td><td><a href="http://www.turbobytes.com/" title="Faster content delivery - Turbobytes"><div class="sponsor_logo" style="background-image: url(/images/sponsors/sponsors1.png?v=8); background-position: 0px -40px;"></div></a></td></tr></tbody></table></div>    <div class="cleared"></div>
+    
+    <script type="text/javascript" src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/site.js"></script>
+    <script type="text/javascript">
+        function showFeeds(column)
+        {
+            var label = document.getElementById("show_more_feeds_" + column);
+            label.parentNode.removeChild( label );
+            
+            document.getElementById("more_feeds_" + column).className = "";
+            return false;
+        }
+    </script>
+    <script> 
+(function(a,b,c,d,e){function f(){var a=b.createElement("script");a.async=!0;
+a.src="//radar.cedexis.com/1/11918/radar.js";b.body.appendChild(a)}/\bMSIE 6/i
+.test(a.navigator.userAgent)||(a[c]?a[c](e,f,!1):a[d]&&a[d]("on"+e,f))})
+(window,document,"addEventListener","attachEvent","load");
+</script> 
+<script src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/fastly.js" async=""></script>
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"5b0327a758","applicationID":"2035125","transactionName":"NFBXZUNRW0ADAkRbCQ0aYENYH0VWEAdfQAsCW1ZUbl9FRwsMWUgHF1xaXx9AXUM=","queueTime":0,"applicationTime":46,"atts":"GBdUEwtLSE4=","errorBeacon":"bam.nr-data.net","agent":""}</script>    
+    <div id="experiment-timing" style="color: #77A;"></div>        </div>
+        <a href="#top" id="back_to_top">Back to top</a>
+
+        <!--Load the AJAX API-->
+            
+
+</div><div class="" style="display: none; top: 264px; left: 1422px; right: auto;" id="tooltip"><h3 style="display: none;"></h3><div class="body">Click the grade to see the requests that should be served from a CDN if you have a distributed user base</div><div style="display: none;" class="url"></div></div><script src="WebPagetest%20Optimization%20Check%20Results%20-%20Frankfurt%20%20%20www.wuv.de%20-%2009_15_16%2014%2026%2000-Dateien/radar.js" async=""></script></body></html>
